@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+<PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <PackageId>Salt.RequestHandler</PackageId>
+    <Description>Simple logger for webapi request</Description>
+    <LangVersion>9</LangVersion>
+  </PropertyGroup>
+
+<PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+  <DebugType>full</DebugType>
+  <DocumentationFile>bin\Debug\Salt.RequestHandler.xml</DocumentationFile>
+</PropertyGroup>
+
+<PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+  <DebugSymbols>true</DebugSymbols>
+  <DocumentationFile>bin\Release\Salt.RequestHandler.xml</DocumentationFile>
+</PropertyGroup>
+
+<ItemGroup>
+  <PackageReference Include="Microsoft.AspNetCore.Http" Version="2.2.2" />
+  <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="5.0.0" />
+  <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="5.0.0" />
+</ItemGroup>
+
+</Project>
