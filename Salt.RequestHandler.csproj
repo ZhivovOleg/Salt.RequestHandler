@@ -5,6 +5,12 @@
     <PackageId>Salt.RequestHandler</PackageId>
     <Description>Simple logger for webapi request</Description>
     <LangVersion>9</LangVersion>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <Authors>Zhivov Oleg A.</Authors>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <RepositoryType>Github</RepositoryType>
+    <RepositoryUrl>https://github.com/ZhivovOleg/Salt.RequestHandler</RepositoryUrl>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
 
 <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
